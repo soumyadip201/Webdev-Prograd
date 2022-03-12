@@ -1,6 +1,6 @@
 # ProGrad Lab | Superwars Stage 1
 
-## [Link to Prograd Superwars Stage 1](https://github.com/FACEPrep-ProGrad/lab-cricpro-scoreboard/)
+## [Link to Prograd Superwars Stage 1](https://github.com/prograd-org/project-11-superwars-css)
 
 ## Output
 
