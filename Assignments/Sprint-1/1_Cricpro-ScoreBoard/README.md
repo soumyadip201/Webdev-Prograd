@@ -1,13 +1,9 @@
 #  CricPro ScoreBoard
 
- ## [Link to Prograd CricPro ScoreBoard Repository](https://github.com/FACEPrep-ProGrad/lab-cricpro-scoreboard/)
+## [Link to Prograd CricPro ScoreBoard Repository](https://github.com/FACEPrep-ProGrad/lab-cricpro-scoreboard/)
 
-## Expected Output
+## Output
 Here is a screenshot of the expected output.
-![Image description](https://i1.faceprep.in/ProGrad/cricpro.png)
-
-## Output Created
-Here is a screenshot of the output.
 ![Image description](/assets/output/result.png)
 
 Happy Coding ❤️
