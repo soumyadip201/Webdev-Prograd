@@ -1,74 +1,86 @@
-/* Type your code here */
-body {
+
+#cricpro{
+  margin-top: 20px;
+  margin-left: 1300px;
 }
-/* change the font family and spacing as per your project font */
-.footer {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  position: relative;
-  top: 50px;
-  margin-left: 10px;
-  font-size: 2rem;
-  font-family: Nunito Sans;
+#heading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
+  margin-left: 60px;
+  font-size: 50px;
+  color: #000;
 }
-
-.footer img {
-  margin: 0px 0.5rem;
+#secondheading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 60px;
+  font-size: 23px;
+  color: rgb(114, 107, 107);
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
-* {
-  font-family: "Nunito Sans", sans-serif;
+#bgimage{
+  margin-left: 650px;
 }
-
-#logo {
-  margin-left: 80%;
-  height: 4rem;
-  width: 15rem;
-}
-#Title {
-  text-shadow: 2px 2px black;
-  font-size: 3rem;
-}
-
-#Team {
-  color: gray;
-  font-size: 2rem;
-}
-
-#container {
-  margin: 0px 0px 0px 10px;
-  background-image: url(./assets/background-image1.png);
+#bodypart {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  background-image: url("assets/background-image1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right;
+  height: 531px;
+  margin-right: 20px;
 }
-
-table {
-  border-collapse: collapse;
-  border: 2px solid black;
-  background-color: white;
-  font-weight: bolder;
-  font-size: large;
-  border-spacing: 50px 0;
+.orangeheading {
+  margin-left: 855px;
 }
-
-tr {
-  border: solid;
-  border-color: gray;
-  border-width: 2px 0;
+#orangeheading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:coral;
+  margin-left: 60px;
+  margin-right: 362px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  display: flex;
 }
-td {
-  padding: 30px 30px;
+.tableboard{
+  margin-left: 60px;
+  padding-left: 15px;
+  background-color: rgb(255, 255, 255);
 }
-
-a {
-  text-decoration: none;
-  color: #1aa3ff;
+.lefttable{
+  width: 300px;
+  text-align: left;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
-
-.status {
-  color: gray;
+.bowler {
+  width: 350px;
+  color: rgb(128, 128, 128);
+}
+.middletable{
+  width: 74px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.extra{
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 681px;
+  text-align: left;
+}
+.run{
+  background-color: rgb(255, 255, 255);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 357px;
+  text-align: left;
+}
+.didnotbatname{
+  width: 738px;
 }
