@@ -8,6 +8,6 @@ Here is a screenshot of the expected output.
 
 ## Output Created
 Here is a screenshot of the output.
-![Image description](./Output/result.png)
+![Image description](/Output/result.png)
 
 Happy Coding ❤️
