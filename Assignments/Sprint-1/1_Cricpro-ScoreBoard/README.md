@@ -1,6 +1,6 @@
 #  CricPro ScoreBoard
 
-[Link to Prograd CricPro ScoreBoard Repository](https://github.com/FACEPrep-ProGrad/lab-cricpro-scoreboard/)
+ ## [Link to Prograd CricPro ScoreBoard Repository](https://github.com/FACEPrep-ProGrad/lab-cricpro-scoreboard/)
 
 ## Expected Output
 Here is a screenshot of the expected output.
@@ -8,6 +8,6 @@ Here is a screenshot of the expected output.
 
 ## Output Created
 Here is a screenshot of the output.
-![Image description]("/Output/result.png")
+![Image description](/assets/output/result.png)
 
 Happy Coding ❤️
