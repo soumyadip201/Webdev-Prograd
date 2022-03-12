@@ -4,6 +4,8 @@
 
 ## Output
 Here is a screenshot of the expected output.
-![Image description](/assets/output/result.png)
+![result](https://user-images.githubusercontent.com/81064540/158018671-ff55e1a8-3bf4-40e1-9e6b-2b28170ab624.png)
+
 
 Happy Coding ❤️
+
