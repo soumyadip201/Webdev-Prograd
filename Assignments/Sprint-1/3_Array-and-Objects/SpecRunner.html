@@ -2,21 +2,208 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Jasmine Spec Runner v2.8.0</title>
+    <title>Arrays & Functions</title>
 
-    <link rel="shortcut icon" type="image/png" href="jasmine/jasmine-2.8.0/jasmine_favicon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="jasmine/jasmine-2.8.0/jasmine_favicon.png"
+    />
     <link rel="stylesheet" href="jasmine/jasmine-2.8.0/jasmine.css" />
 
-    <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
+    <!-- <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
     <script src="jasmine/jasmine-2.8.0/jasmine-html.js"></script>
-    <script src="jasmine/jasmine-2.8.0/boot.js"></script>
+    <script src="jasmine/jasmine-2.8.0/boot.js"></script> -->
 
     <!-- include source files here... -->
     <script src="src/functions-and-arrays.js"></script>
 
     <!-- include spec files here... -->
-    <script src="tests/functions-and-arrays.spec.js"></script>
+    <!-- <script src="tests/functions-and-arrays.spec.js"></script> -->
   </head>
 
-  <body></body>
+  <body>
+    <h1><center>ARRAYS AND FUNCTION</center></h1>
+    <br />
+    <!-- Greatest of the two -->
+    <h2><u>Progression 1 : Greatest of the two numbers</u></h2>
+    <h4>
+      Enter the first Number :
+      <input type="number" id="n1" placeholder="1st number" />
+    </h4>
+    <h4>
+      Enter the first Number :
+      <input type="number" id="n2" placeholder="2nd number" />
+    </h4>
+    <input type="submit" value="Find" onclick="greatestOfTwoNumbers()" />
+    <br />
+    <br />
+    <span>Largest Number : <span id="max"></span></span>
+    <!--  -->
+
+    <br /><br /><br /><br />
+
+    <!-- The lengthy word -->
+    <h2><u>Progression 2 : The Scary / Lengthy Word</u></h2>
+    <p style="font-size: larger">
+      Words are : mystery , brother , aviator , crocodile , pearl , orchard ,
+      crackpot
+    </p>
+    <input type="submit" value="Largest Word" onclick="findScaryWord()" />
+    <br />
+    <br />
+    <span>Lengthy Word : <span id="lengthy"></span></span>
+    <!--  -->
+
+    <br /><br /><br /><br />
+
+    <!-- Net Price -->
+    <h2><u>Progression 3 : Net Price Calculation</u></h2>
+    <p style="font-size: larger">Prices = 6, 12, 1, 18, 13, 16, 2, 1, 8, 10</p>
+    <input type="submit" value="Calculate" onclick="netPrice()" />
+    <br />
+    <br />
+    <span>Net Price = <span id="net"></span></span>
+    <!--  -->
+
+    <br /><br /><br /><br />
+
+    <!-- Mid Point -->
+    <h2><u>Progression 4 : Mid Point</u></h2>
+    <h3>(a) Array of Numbers (4.1)</h3>
+    <p style="font-size: larger">Numbers = [ 2, 6, 9, 10, 7, 4, 1, 9 ]</p>
+    <input type="submit" value="Average" onclick="midPointOfLevels()" />
+    <br />
+    <br />
+    <span>Average of the numbers : <span id="avg"></span></span>
+
+    <br /><br />
+
+    <h3>(b) Array of Strings (4.2)</h3>
+    <p style="font-size: larger">
+      Word_Array = [ seat , correspond , linen , motif , hole , smell , smart ,
+      chaos , fuel , palace ];
+    </p>
+    <input type="submit" value="Submit" onclick="averageWordLength()" />
+    <br />
+    <br />
+    <span>Average WordLength: <span id="avg-str"></span></span>
+    <!--  -->
+
+    <br /><br /><br /><br />
+
+    <!-- Unique arrays -->
+    <h2><u>Progression 5 : Unique Arrays</u></h2>
+    <p style="font-size: larger">
+      Items = [ bread , jam , milk , egg , flour , oil , rice , coffee powder ,
+      sugar , salt , egg , flour ];
+    </p>
+    <input type="submit" value="Submit" onclick="uniqueArray()" />
+    <br />
+    <br />
+    <span>Unique Array : <span id="unique"></span></span>
+    <!--  -->
+
+    <br /><br /><br /><br />
+
+    <!-- Find elements -->
+    <h2><u>Progression 6 : Find Elements</u></h2>
+    <p style="font-size: larger">
+      Words = [ machine , subset , trouble , starting , matter , eating , truth
+      , disobedience ]
+    </p>
+    <input type="text" id="str" placeholder="search the element" />
+    <input type="submit" value="Search" onclick="searchElement()" />
+    <br />
+    <br />
+    <span>Element present: <span id="found"></span></span>
+    <!--  -->
+
+    <br /><br /><br /><br />
+
+    <!-- Count repeated elements -->
+    <h2><u>Progression 7 : Count Repeated Elements</u></h2>
+    <p style="font-size: larger">
+      Words = [ machine , matter , subset , trouble , starting , matter , eating
+      , matter , truth , disobedience , matter ]
+    </p>
+    <input type="text" id="wrd" placeholder="Enter the word from the list" />
+    <input
+      type="submit"
+      value="Frequency"
+      onclick="howManyTimesElementRepeated()"
+    />
+
+    <p>Frequency of the word is : <span id="freq"></span></p>
+    <!--  -->
+
+    <br /><br /><br />
+
+    <!-- Product of adjacent numbers -->
+    <h2>
+      <u
+        >Progression 8 (Vertically and Horizontally) : Product of adjacent
+        numbers</u
+      >
+    </h2>
+    <p style="font-size: larger">
+      Matrix = [ <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[08, 02, 22, 97, 38,
+      15, 00, 40, 00, 75],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[49, 49, 99, 40, 17, 81, 18, 57, 60,
+      87],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[81, 49, 31, 73, 55, 79, 14, 29, 93,
+      71],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[52, 70, 95, 23, 04, 60, 11, 42, 69,
+      24],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[22, 31, 16, 71, 51, 67, 63, 89, 41,
+      92],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[24, 47, 32, 60, 99, 03, 45, 02, 44,
+      75],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[32, 98, 81, 28, 64, 23, 67, 10, 26,
+      38],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[67, 26, 20, 68, 02, 62, 12, 20, 95,
+      63],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[24, 55, 58, 05, 66, 73, 99, 26, 97,
+      17],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[21, 36, 23, 09, 75, 00, 76, 44, 20,
+      45],<br />
+      ];
+    </p>
+    <input type="submit" value="Submit" onclick="maximumProduct()" />
+    <p>Maximum product of Adjacent numbers : <span id="maxP"></span></p>
+
+    <br /><br /><br />
+    <h2>
+      <u>Progression 8.1(Diagonally): Product of Diagonals</u>
+    </h2>
+    <p style="font-size: larger">
+      Matrix = [ <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[08, 02, 22, 97, 38,
+      15, 00, 40, 00, 75],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[49, 49, 99, 40, 17, 81, 18, 57, 60,
+      87],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[81, 49, 31, 73, 55, 79, 14, 29, 93,
+      71],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[52, 70, 95, 23, 04, 60, 11, 42, 69,
+      24],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[22, 31, 16, 71, 51, 67, 63, 89, 41,
+      92],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[24, 47, 32, 60, 99, 03, 45, 02, 44,
+      75],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[32, 98, 81, 28, 64, 23, 67, 10, 26,
+      38],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[67, 26, 20, 68, 02, 62, 12, 20, 95,
+      63],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[24, 55, 58, 05, 66, 73, 99, 26, 97,
+      17],<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[21, 36, 23, 09, 75, 00, 76, 44, 20,
+      45],<br />
+      ];
+    </p>
+    <input
+      type="submit"
+      value="Submit"
+      onclick=" maximumProductOfDiagonals()"
+    />
+    <p>Maximum product of Diagonals : <span id="maxD"></span></p>
+  </body>
 </html>
