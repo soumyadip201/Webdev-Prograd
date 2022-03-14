@@ -5,6 +5,7 @@
 ## Output
 
 Here is a screenshot of the output.
-![result](https://user-images.githubusercontent.com/81064540/158023483-6f0138c4-ded6-485f-8d8a-5a309cbe2956.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/81064540/158193491-a2221b37-633a-493e-a60c-a46bdfd31573.png)
+
 
 Happy Coding ❤️
