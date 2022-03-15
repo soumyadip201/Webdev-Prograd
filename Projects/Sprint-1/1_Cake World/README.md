@@ -1,32 +1,13 @@
-![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
 
-# ProGrad Lab | CAKEWORLD
+# ProGrad Lab | Mini Project | CAKEWORLD
 
-Mama Jenny wants to explore the art of Pastry making. She is extremely popular because of her burger business and has recently had the idea to expand into cake business too. Unfortunately, she isn't the best at web development. Mama has heard of ProGrads and she thought you could do a great job. 
+## [Link to Prograd CAKEWORLD Github Repository](https://github.com/prograd-org/mini-project-builder-cake-world)
 
-Help Mama create a website that'll attract more audience and help her make a living through it. Your task is to build a complete website which helps in customizing cakes for birthdays.
-
-## What should you do
-```
-Fork this repo
-Clone this repo
-Practice DOM Features
-```
-
-## How To Submit
-```
-Upon completion, run the following commands:
-
-git add .
-git commit -m "ProGrad ID"
-git push origin master
-
-And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
-```
 
 ### Progression 1: LAYERS
 
-As your first task, you've got to enable the different layers of the cake on the screen. Create a `render()` for each ingredient and make sure that it displays the selected layer.
+As our first task, we've got to enable the different layers of the cake on the screen. 
+Created a `render()` for each ingredient and make sure that it displays the selected layer.
 
 Size of the layer for each crust
 ```
@@ -59,27 +40,47 @@ Size of the layer for each crust
     visibility: hidden;
 }
 ```
-	
-
-![Image description](https://i1.faceprep.in/ProGrad/Mern-cakeworld-1.png)
 
 ### Progression 2: LAYER THEM UP
 
 Setup `EventListeners`, so that we can add or remove different ingredients by clicking on the respective ingredient buttons. That's the whole point of it.
 
-![Image description](https://i1.faceprep.in/ProGrad/Mern-cakeworld-2.png)
 
 ### Challenge 1: SHOW EM UP
 
 Make the ingredient buttons pop up based on their current active state. This would help customers identify what ingredients they've selected and what's left out.
 
+
 ### Challenge 2: TAKE THE ORDER
 
 Show the customer only the ingredients that they've selected on the chalk board.
-![Image description](https://i1.faceprep.in/ProGrad/Mern-cakeworld-3.png)
+
+
 ### Challenge 3: BILL TIME
 
 The customer has had a good time customizing his cake. Time for him to pay. Use ingredient prices to calculate the cost of a cake and display it to the customer.
 
-![Image description](https://i1.faceprep.in/ProGrad/Mern-cakeworld-4.png)
-Happy Coding ProGrads❤️
+
+# OUTPUT
+
+### Output Progression 1: LAYERS
+
+![Output1](https://user-images.githubusercontent.com/81064540/158394318-89b4f32b-ae3f-4715-b750-c19e76444519.png)
+
+
+### Output Progression 2: LAYER THEM UP
+
+![Output2](https://user-images.githubusercontent.com/81064540/158394585-c175af2e-e225-4805-b9d9-2f79d27b93fb.png)
+
+
+### Output Challenge 1: SHOW EM UP AND TAKE THE ORDER
+
+![Output3](https://user-images.githubusercontent.com/81064540/158394604-9994a2c0-7a28-4a43-b716-783259f2c416.png)
+
+
+### Output Challenge 3: BILL TIME
+
+![Output4](https://user-images.githubusercontent.com/81064540/158394618-e5eef2d8-303a-4fd2-a517-ffe10f97cfb0.png)
+
+
+Happy Coding ❤️
