@@ -1,4 +1,4 @@
-# Web Development - Prograd
+# Web Development Externship - Prograd
 
 ## Projects:
 
