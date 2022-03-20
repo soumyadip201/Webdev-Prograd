@@ -14,9 +14,13 @@ Create an account in (https://newsapi.org/). Once you create an account, go to s
 
 Use Axios to fetch the data from https://newsapi.org/ api and display it as shown in the output.
 
+![Image description](https://i1.faceprep.in/ProGrad/news-app2.JPG)
+
 ### Progression 3: US NEWS-LIVE
 
 Show the top most news in US
+
+![Image description](https://i1.faceprep.in/ProGrad/news-app1.JPG)
 
 ## OUTPUT
 
