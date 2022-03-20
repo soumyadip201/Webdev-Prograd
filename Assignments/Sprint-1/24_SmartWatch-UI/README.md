@@ -2,6 +2,8 @@
 
 # ProGrad Project-Builder | HTML & CSS | SMARTWATCH UI
 
+## [Link to PROGRAD-SMARTWATCH UI Github Repository](https://github.com/prograd-org/project-builder-smartwatch-ui)
+
 We have learned all the important concepts in JavaScript. Now lets work with our project builder in building a smartwatch, applying all of the concepts we have just learned.
 
 ### Progression 1: UI
