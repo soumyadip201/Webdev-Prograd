@@ -31,5 +31,17 @@ Play the trailers of selected movie.
 Setup a filter based on the movie year.
 
 ## Output
+![Screenshot (60)](https://user-images.githubusercontent.com/81064540/159169029-cb18654a-f919-4644-a50c-2b24e358dba6.png)
+
+![Screenshot (61)](https://user-images.githubusercontent.com/81064540/159169031-453308e5-a3ce-49fc-8ef7-538ce6d23881.png)
+
+![Screenshot (62)](https://user-images.githubusercontent.com/81064540/159169032-7647e90d-43d3-4316-aa92-35c7387c1e38.png)
+
+![Screenshot (63)](https://user-images.githubusercontent.com/81064540/159169034-9caa20a2-31f0-4253-b30c-7f540b594bbc.png)
+
+![Screenshot (64)](https://user-images.githubusercontent.com/81064540/159169035-fe8c79d9-a59a-4a26-877a-beed6e246f97.png)
+
+
+
 
 Happy Coding ProGrads❤️
