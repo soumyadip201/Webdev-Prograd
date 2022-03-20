@@ -26,4 +26,8 @@ Show the top most news in US
 
 Here is the Screenshot of the Expected Output.
 
+![Screenshot (52)](https://user-images.githubusercontent.com/81064540/159165943-b2bf8288-8877-43d2-9e7f-63cf4df0d70b.png)
+
+![Screenshot (53)](https://user-images.githubusercontent.com/81064540/159165947-14cb0338-1eff-461b-b11e-1574eef6e435.png)
+
 Happy Coding ProGrads❤️
