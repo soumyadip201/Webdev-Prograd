@@ -16,6 +16,12 @@ Use Fetch to fetch the data from openweathermap api and display it as shown in t
 
 ## OUTPUT
 
-Here is the Screenshot of the Expected Output
+Here is the Screenshot of the Expected Output.
+
+![Screenshot (49)](https://user-images.githubusercontent.com/81064540/159164827-b1133a5c-2914-4563-9508-c099c75d5c62.png)
+
+![Screenshot (50)](https://user-images.githubusercontent.com/81064540/159164828-b055df76-0778-4d89-8946-0ce9aac21ca3.png)
+
+![Screenshot (51)](https://user-images.githubusercontent.com/81064540/159164832-6bd5310a-92f8-46d4-a0d0-6badd0382b30.png)
 
 Happy Coding ProGrads❤️
