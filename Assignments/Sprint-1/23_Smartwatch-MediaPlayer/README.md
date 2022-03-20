@@ -2,7 +2,7 @@
 
 # ProGrad Project-Builder | JS | SMARTWATCH MEDIAPLAYER
 
-## [Link to PROGRAD-SMARTWATCH MEDIAPLAYER Github Repository](https://github.com/prograd-org/lab-js-prograd-expense-tracker)
+## [Link to PROGRAD-SMARTWATCH MEDIAPLAYER Github Repository](https://github.com/prograd-org/project-builder-smartwatch-media-player)
 
 We have learned all the important concepts in JavaScript. Now lets work with our project builder in building a smartwatch, applying all of the concepts we have just learned.
 
