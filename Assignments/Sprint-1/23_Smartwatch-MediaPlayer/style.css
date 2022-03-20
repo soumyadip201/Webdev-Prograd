@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+.mainContainer {
+  display: flex;
+  height: 100%;
+  padding: 20px 0px;
+}
+
+.leftContainer {
+  position: relative;
+  width: 50%;
+  background-color: rgb(43, 46, 56);
+}
+
+.title {
+  position: relative;
+  top: 40%;
+  left: 30%;
+  font-size: 3rem;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.rightContainer {
+  position: relative;
+  width: 50%;
+  background-color: white;
+}
+
+.display {
+  position: relative;
+  /* left: 20px; */
+  width: 240px;
+  height: 210px;
+  background-color: black;
+  border-radius: 20%;
+  border: 2px solid black;
+  /* margin-top: 10px; */
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  height: 350px;
+  width: 280px;
+  top: 150px;
+  left: 250px;
+  background-color: black;
+  border-radius: 20%;
+  border-top: 25px solid rgb(66, 62, 62);
+  border-bottom: 25px solid rgb(63, 57, 57);
+}
+
+.watch h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.time {
+  text-align: center;
+  position: relative;
+  top: 10%;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 40px;
+}
+
+.time h1 {
+  font-size: 4rem;
+}
+
+.message {
+  top: 10%;
+  background-color: white;
+  color: black;
+  width: 240px;
+  height: 210px;
+  border-radius: 20%;
+  display: none;
+  margin-left: 15px;
+}
+
+.message button {
+  position: relative;
+  left: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 10px;
+  text-align: left;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 40px;
+}
+
+.innermessage {
+  top: 10%;
+  background-color: white;
+  color: black;
+  width: 240px;
+  height: 210px;
+  border-radius: 20%;
+  display: none;
+  margin-left: 15px;
+}
+
+.innermessage p {
+  position: relative;
+  left: 10px;
+  padding: 10px;
+  top: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  position: relative;
+  top: 3%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.far,
+.fas {
+  color: white;
+  font-size: 25px;
+}
+
+.watch h4 {
+  cursor: pointer;
+}
+
+.music {
+  position: relative;
+  top: 1%;
+  font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: none;
+}
+
+.player {
+  display: flex;
+  background: linear-gradient(to right, #333333, #dd1818);
+  width: 260px;
+  border-radius: 10%;
+  margin-left: 8px;
+}
+
+article {
+  margin: 5px;
+}
+
+#trackname {
+  font-size: 1.5rem;
+  text-shadow: 0px 8px 5px black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.player img {
+  width: 60px;
+  height: 60px;
+  margin-left: 4px;
+  margin-right: 10px;
+}
+
+audio {
+  width: 230px;
+  margin-left: 3px;
+}
+
+.list {
+  overflow-y: scroll;
+  height: 130px;
+  width: 270px;
+  padding: 5px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+.play-pauseBtn {
+  display: flex;
+}
+
+.play-pauseBtn button {
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: transparent;
+  border: 1px solid red;
+  color: white;
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.play-pauseBtn button:hover {
+  transition: 1s all linear;
+  border: 1px solid white;
+  color: red;
+  outline: none;
+  box-shadow: 0px 1px 9px white;
+}
+
+.list ul li {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+  overflow-y: scroll;
+  font-size: 1rem;
+  text-align: justify;
+  font-family: cursive;
+  text-shadow: 0px 1px 10px white;
+}
