@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartWatch UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1>SmartWatch</h1>
+      </div>
+      <div class="right">
+        <div class="watch">
+          <p id="timeS" onclick="selectScreen(0)"></p>
+          <div class="screen">
+            <div class="timeB">
+              <p id="timeB"></p>
+              <p id="day"></p>
+            </div>
+            <div class="sms">
+              <p onclick="selectMsg(1)">Java</p>
+              <p onclick="selectMsg(2)">CSS</p>
+              <p onclick="selectMsg(3)">HTML</p>
+              <p onclick="selectMsg(4)">JavaScript</p>
+              <p onclick="selectMsg(5)">React</p>
+              <p id="showMsg"></p>
+            </div>
+            <div class="media">
+              <div class="mtop">
+                <div class="mleft">
+                  <img
+                    src="./imgs/s1.png"
+                    style="width: 100%; height: 100%"
+                    id="simg"
+                  />
+                </div>
+                <div class="mright">
+                  <audio src="./songs/s1.mp3" controls id="song"></audio>
+                </div>
+              </div>
+              <div class="mbottom">
+                <div class="song" onclick="selectSong(1)">
+                  <p>1&nbsp;&nbsp;&nbsp;Everlasting Shine</p>
+                  <p>3:11</p>
+                </div>
+                <div class="song" onclick="selectSong(2)">
+                  <p>2&nbsp;&nbsp;&nbsp;Love Nwantiti</p>
+                  <p>3:13</p>
+                </div>
+                <div class="song" onclick="selectSong(3)">
+                  <p>3&nbsp;&nbsp;&nbsp;Beautiful</p>
+                  <p>3:50</p>
+                </div>
+                <div class="song" onclick="selectSong(4)">
+                  <p>4&nbsp;&nbsp;&nbsp;#BrooklynBloodPop</p>
+                  <p>2:25</p>
+                </div>
+                <div class="song" onclick="selectSong(5)">
+                  <p>5&nbsp;&nbsp;&nbsp;Inferno</p>
+                  <p>2:15</p>
+                </div>
+              </div>
+            </div>
+            <div class="timer">
+              <p class="curr">
+                <span class="chrs">00</span>:<span class="cmin">00</span>:<span
+                  class="csec"
+                  >00</span
+                >
+              </p>
+              <p class="prev">00:00:00</p>
+              <div class="controls">
+                <i class="fas fa-redo" onclick="timer(1)"></i>
+                <i class="fas fa-play" onclick="timer(2)"></i>
+                <i class="fas fa-stop" onclick="timer(3)"></i>
+              </div>
+            </div>
+          </div>
+          <div class="icons">
+            <img src="./imgs/51905-200.png" onclick="selectScreen(1)" />
+            <img src="./imgs/17849-200.png" onclick="selectScreen(3)" />
+            <img src="./imgs/Background.png" onclick="selectScreen(5)" />
+          </div>
+        </div>
+        <div class="watchBack"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
