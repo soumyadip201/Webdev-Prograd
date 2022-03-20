@@ -42,7 +42,7 @@ Here is a screenshot of the output.
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/81064540/159161766-330effb7-004d-4306-a3cb-732ec7bdb046.png)
 
-###Invalid Input
+### Invalid Input
 ![Screenshot (37)](https://user-images.githubusercontent.com/81064540/159161768-5a13b46c-ee99-4890-a059-5e4620e4ec67.png)
 <br>
 ![Screenshot (38)](https://user-images.githubusercontent.com/81064540/159161773-3e67cc16-d754-4809-a663-68e379875f5f.png)
