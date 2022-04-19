@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "United States of America",
+        "cur": "United States dollar (USD)",
+        "cid": "US"
+    },
+    {
+        "id": 2,
+        "name": "India",
+        "cur": "Indian Rupee (INR)",
+        "cid": "IN"
+    },
+    {
+        "id": 3,
+        "name": "China",
+        "cur": "Japanese yen (YEN)",
+        "cid": "CN"
+    },
+    {
+        "id": 4,
+        "name": "Europe",
+        "cur": "European Union (EUR)",
+        "cid": "EU"
+    },
+    {
+        "id": 5,
+        "name": "United Arab Emirates",
+        "cur": "Emirati Dirham (AED)",
+        "cid": "AE"
+    }
+]
